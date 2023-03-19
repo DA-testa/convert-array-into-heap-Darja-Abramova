@@ -36,8 +36,8 @@ def main():
     if "F" in c:
         d = input()
         with open("tests/" + d, 'r') as file:
-                r = int(file.readline())
-                izv = list(map(int, file.readline().split()))
+                n = int(file.readline())
+                data = list(map(int, file.readline().split()))
                 
     if "I" in c:
         # input from keyboard
